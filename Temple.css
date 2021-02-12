@@ -1,0 +1,264 @@
+.bgtemple{
+	width:100%;
+	height:240%;
+    background-color:#e5e4e2;
+    background-size:cover;
+	padding-top:1px;
+}
+/*box for hospitals */
+#boxtemple1{
+	background:#ffffc2;
+	color:black;
+	margin-top:40px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#txttemple{
+	margin-left:250px;
+	margin-top:7px;
+	font-family:timesnewroman;
+	font-weight:800;
+	font-size:24px;
+	color:red;
+}
+#imgtemple1{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/jakhu.jpg');
+}
+#description1{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+/*igmc hospital*/
+
+
+/*second hospital*/
+
+#boxtemple2{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple2{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/tara.jpg');
+}
+#description2{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}	
+
+	
+	
+/*third hospital*/
+
+#boxtemple3{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple3{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/kamana.jpg');
+}
+#description3{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+
+/*forth hospital*/
+
+#boxtemple4{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple4{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/sankat.jpg');
+}
+#description4{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}	
+
+/*fifth hospital*/
+
+#boxtemple5{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple5{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/kali.jpg');
+}
+#description5{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+
+/*sixth hospital*/
+
+#boxtemple6{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple6{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/ram.jpg');
+}
+#description6{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*seventh hospital*/
+
+#boxtemple7{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple7{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/karishan.jpg');
+}
+#description7{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-130px;
+}
+
+/*eighth hospital*/
+
+#boxtemple8{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple8{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/hanuman.jpg');
+}
+#description8{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+
+/*ninth hospital*/
+
+#boxtemple9{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtemple9{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('temple/shiv.jpg');
+}
+#description9{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+	

@@ -1,0 +1,588 @@
+.bghotel{
+	width:100%;
+	height:470%;
+    background-color:#e5e4e2;
+    background-size:cover;
+	padding-top:1px;
+}
+
+/*hotel himland*/
+#blockhotel1
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#txthotel{
+	margin-left:230px;
+	margin-top:7px;
+	font-family:timesnewroman;
+	font-weight:800;
+	font-size:24px;
+	color:red;
+}
+#imghotel1{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:210px;
+	background:url('hotelicon/hhh.jpg');
+}
+#des1{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+.detail{
+	margin-top:7px;
+	margin-left:410px;
+	font-family:arial;
+	font-size:17px;
+}
+/*hotel 1*/
+.checked{
+    color:orange;
+}
+.starpos{
+	margin-top:-170px;
+	margin-left:230px
+}
+
+
+/*hotel second*/
+#blockhotel2
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel2{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:210px;
+	background:url('hotelicon/bridge.jpg');
+}
+#des2{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+/*hotel himland*/
+#blockhotel3
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel3{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/shingar.jpg');
+}
+#des3{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+/*hotel second*/
+#blockhotel4
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel4{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/auckland.jpg');
+}
+#des4{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+
+
+/*hotel himland*/
+#blockhotel5
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel5{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/cecil.jpg');
+}
+#des5{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+/*hotel second*/
+#blockhotel6
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel6{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/peterhoff.jpg');
+}
+#des6{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+
+/*hotel himland*/
+#blockhotel7
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel7{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/surya.jpg');
+}
+#des7{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+/*hotel second*/
+#blockhotel8
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel8{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/spring.jpg');
+}
+#des8{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+
+/*hotel himland*/
+#blockhotel9
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel9{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/royal.jpg');
+}
+#des9{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:45px;
+}
+
+
+
+/*hotel second*/
+#blockhotel10
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel10{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/snow.jpg');
+}
+#des10{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+/*hotel himland*/
+#blockhotel11
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel11{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/treeboo.jpg');
+}
+#des11{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+
+
+/*hotel second*/
+#blockhotel12
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel12{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/blossom.jpg');
+}
+#des12{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+#blockhotel13
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel13{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/sterling.jpg');
+}
+#des13{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+#blockhotel14
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel14{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/golf.jpg');
+}
+#des14{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+
+#blockhotel15
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel15{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/wood.jpg');
+}
+#des15{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+#blockhotel16
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel16{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/rock.jpg');
+}
+#des16{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+#blockhotel17
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel17{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/rajdoot.jpg');
+}
+#des17{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+#blockhotel18
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel18{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/basant.jpg');
+}
+#des18{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}
+#blockhotel19
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+
+#imghotel19{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/aachman.jpg');
+}
+#des19{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+#blockhotel20
+{
+	background:#ffffc2;
+	color:black;
+	margin-top:-220px;
+	margin-left:720px;
+	height:220px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#imghotel20{
+	margin-top:-35px;
+	margin-left:7px;
+	width:200px;
+	height:200px;
+	background:url('hotelicon/iswarlok.jpg');
+}
+#des20{
+	font-family:arial;
+	font-size:17px;
+	margin-left:230px;
+	margin-left:230px;
+	margin-top:20px;
+}

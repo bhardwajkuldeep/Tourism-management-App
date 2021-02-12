@@ -1,0 +1,200 @@
+.bgtaxi{
+	width:100%;
+	height:190%;
+    background-color:#e5e4e2;
+    background-size:cover;
+	padding-top:1px;
+}
+/*educational institution*/
+#boxtaxi1{
+	background:#ffffc2;
+	color:black;
+	margin-top:50px;
+	margin-left:100px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#txttaxi{
+	margin-left:250px;
+	margin-top:7px;
+	font-family:timesnewroman;
+	font-weight:800;
+	font-size:24px;
+	color:red;
+}		
+#imgtaxi1{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/kalka.jpg');
+}
+#description1{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*educational institution*/
+
+#boxtaxi2{
+	background:#ffffc2;
+	color:black;
+	margin-top:-200px;
+	margin-left:720px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi2{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/tara.jpg');
+}
+#description2{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*educational institution*/
+
+#boxtaxi3{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi3{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/himachal.jpg');
+}
+#description3{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*educational institution*/
+
+#boxtaxi4{
+	background:#ffffc2;
+	color:black;
+	margin-top:-200px;
+	margin-left:720px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi4{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/padhai.jpg');
+}
+#description4{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*educational institution*/
+
+#boxtaxi5{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi5{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/taxi.jpg');
+}
+#description5{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*educational institution*/
+
+#boxtaxi6{
+	background:#ffffc2;
+	color:black;
+	margin-top:-200px;
+	margin-left:720px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi6{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/vishal.jpg');
+}
+#description6{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+/*educational institution*/
+
+#boxtaxi7{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:200px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgtaxi7{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:180px;
+	background:url('taxistand/himalayan.jpg');
+}
+#description7{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}

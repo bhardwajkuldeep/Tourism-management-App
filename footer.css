@@ -1,0 +1,84 @@
+.footer{
+	background:#622569;
+	margin-top:5px;
+	margin-left:0px;
+	height:200px;
+	width:100%;
+	color:black;
+}
+#txtsocially{
+	background:white;
+	margin-top:0px;
+	margin-left:0px;
+	height:40px;
+	width:100%;
+	color:black;
+}
+#footercontxt{
+	float:right;
+	font-family:timesnewroman;
+	text-decoration:none;
+	font-size:22px;
+	color:black;
+	margin-top:-10px;
+	margin-right:50px;
+	
+}
+
+.copyright{
+	background:white;
+	margin-top:0px;
+	margin-left:0px;
+	height:30px;
+	width:100%;
+	color:black;
+}
+#copytxt{
+    float:left;
+	font-family:timesnewroman;
+	font-size:20px;
+	padding-top:0px;
+	margin-left:450px;
+	height:30px;
+	width:100%;
+		
+}
+
+#txtfacebook{
+	margin-top:9px;
+	color:white;
+	margin-left:50px;
+	font-family:timesnewroman;
+	font-size:11px;
+}
+#txtgoogleplus{
+	margin-top:-15px;
+	color:white;
+	margin-left:190px;
+	font-family:timesnewroman;
+	font-size:11px;
+}
+#txtinstagram{
+	margin-top:-15px;
+	color:white;
+	margin-left:370px;
+	font-family:timesnewroman;
+	font-size:11px;
+}
+#txttwitter{
+	margin-top:-15px;
+	color:white;
+	margin-left:540px;
+	font-family:timesnewroman;
+	font-size:11px;
+}
+
+#txtyoutube{
+	margin-top:-18px;
+	color:white;
+	margin-left:690px;
+	font-family:timesnewroman;
+	font-size:11px;
+}
+
+

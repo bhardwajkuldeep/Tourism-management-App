@@ -1,0 +1,169 @@
+.bgatm{
+	width:100%;
+	height:170%;
+    background-color:#e5e4e2;
+    background-size:cover;
+	padding-top:1px;
+}
+
+/*box for ATM;s*/
+
+#boxatm1{
+	background:#ffffc2;
+	color:black;
+	margin-top:50px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#txtatm1{
+	margin-left:250px;
+	margin-top:7px;
+	font-family:timesnewroman;
+	font-weight:800;
+	font-size:24px;
+	color:red;
+}
+#imgatm1{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:215px;
+	background:url('bankicons/sbi.jpg');
+}
+#description1{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-80px;
+}
+/* second atm */
+
+#boxatm2{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+		
+#imgatm2{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('bankicons/pnb.jpg');
+}
+#description2{
+	font-family:arial;
+	font-size:17px;
+	margin-left:260px;
+	margin-top:-80px;
+}	
+
+/* third box */
+#boxatm3{
+	background:#ffffc2;
+	color:black;
+	margin-top:40px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgatm3{
+	margin-top:-39px;
+	margin-left:6px;
+	width:226px;
+	height:220px;
+	background:url('bankicons/icici.jpg');
+}
+#description3{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-80px;
+}
+/* fourth box */
+#boxatm4{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgatm4{
+	margin-top:-35px;
+	margin-left:7px;
+	width:206px;
+	height:210px;
+	background:url('bankicons/hdfc.jpg');
+}
+#description4{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-80px;
+}	
+/*box 5*/
+#boxatm5{
+	background:#ffffc2;
+	color:black;
+	margin-top:40px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgatm5{
+	margin-top:-35px;
+	margin-left:7px;
+	width:210px;
+	height:210px;
+	background:url('bankicons/canara.jpg');
+}
+#description5{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-80px;
+}
+
+#boxatm6{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imgatm6{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('bankicons/induslnd.jpg');
+}
+#description6{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}

@@ -1,0 +1,700 @@
+/* main body of website*/
+body{
+	margin:0px;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+/*it contain all the element of website*/
+#containers{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	max-width: 100%;
+	
+}
+
+/*it is for search bar in webpage*/
+
+.search-box-wrapper{
+display:inline-flex;
+font-size:20px;	
+margin-left:250px;
+margin-top:60px;
+}
+
+.search-box-button{
+	font-size:inherit;
+	border:0.6em solid #4d4;
+	border-radius:0.5em 0.5em 0.5em 0.5em;
+	background-color:#4d4;
+	border-left:0;
+	padding:0.20em 0.95em;
+	color:white;
+	font-weight:bold;
+	outline:0;
+	cursor:pointer;
+	}
+.search-box-button:hover,
+.search-box-button:focus
+{
+	border-color:#87f717;
+	background-color:#87f717;
+}
+/*it is for side navigation  bar in webpage*/	
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  position:fixed;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: black;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: yellow;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
+/*menu bar*/
+
+
+.fwimage1{
+	margin-top:0px;
+	width:100%;
+	height:80%;
+    background:#e5e4e2;
+    background-size:cover;
+}
+
+
+
+/*icon box*/	
+.boxicon{
+	background-color:white;
+	margin-left:70px;
+	margin-right:50px;
+	width:90%;
+	height:90%;
+	border:3px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+	padding-top:0px;
+	
+	
+}
+.icon1{
+		float:left;
+		margin-top:50px;
+		margin-left:90px;
+		
+	}
+.icon2{
+		float:left;
+		margin-top:50px;
+		margin-left:140px;
+	   
+	}	
+.icon3{
+		float:left;
+		margin-top:50px;
+		margin-left:85px;
+		
+	}
+.icon4{
+		float:left;
+		margin-top:50px;
+		margin-left:110px;
+		
+	}
+.icon5{
+		float:left;
+		margin-top:50px;
+		margin-left:110px;
+		
+	}	
+.icon6{
+		float:left;
+		margin-top:80px;
+		margin-left:110px;
+		
+	}
+.icon7{
+		float:left;
+		margin-top:80px;
+		margin-left:110px;
+		
+	}
+.icon8{
+		float:left;
+		margin-top:80px;
+		margin-left:70px;
+		
+	}
+.icon9{
+		float:left;
+		margin-top:80px;
+		margin-left:90px;
+		
+	}
+.icon10{
+		float:left;
+		margin-top:80px;
+		margin-left:100px;
+		
+	}	
+/*name of icon*/	
+#txticon1{
+	float:left;
+		margin-top:170px;
+		margin-left:-80px;
+		font-size:25px;
+}
+#txticon2{
+	float:left;
+		margin-top:170px;
+		margin-left:-130px;
+		font-size:25px;
+}
+#txticon3{
+	float:left;
+		margin-top:170px;
+		margin-left:-105px;
+		font-size:25px;
+}
+#txticon4{
+	float:left;
+		margin-top:170px;
+		margin-left:-95px;
+		font-size:25px;
+}
+#txticon5{
+	float:left;
+		margin-top:170px;
+		margin-left:-110px;
+		font-size:25px;
+}
+
+
+/*second row of icon text*/
+#txticon6{
+	float:left;
+		margin-top:200px;
+		margin-left:-90px;
+		font-size:25px;
+}
+#txticon7{
+	float:left;
+		margin-top:200px;
+		margin-left:-150px;
+		font-size:25px;
+}
+#txticon8{
+	float:left;
+		margin-top:200px;
+		margin-left:-120px;
+		font-size:25px;
+}
+#txticon9{
+	float:left;
+		margin-top:200px;
+		margin-left:-120px;
+		font-size:25px;
+}
+#txticon10{
+	float:left;
+		margin-top:200px;
+		margin-left:-130px;
+		font-size:25px;
+}	
+
+
+
+/* text link color*/ 
+a:link , a:visited{
+	text-decoration:none;
+	color:red;
+	background-color:none;
+}
+a:hover , c:hover, a:active{
+    color:black;
+	text-decoration:none;
+	background-color:none;
+}
+#block{
+	background:black;
+	margin-top:60px;
+	margin-left:100px;
+	height:165px;
+	width:250px;
+	background:url('images/map.jpg');
+	opacity:0.6;
+	border:3px blue solid;
+	box-shadow:0px 1px 1px 2px gray;
+    }
+.btn1:hover,
+.btn1:focus{
+	background-color:#f88017;
+}
+
+.btn2:hover,
+.btn2:focus{
+	background-color:#f88017;
+}
+.btn1{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	float:left;
+	margin-top:15px;
+	margin-left:65px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+	border-width:2px;
+	border-color:black;
+	border-radius:15%;
+	font-family:timesnewroman;																																																										
+	box-shadow:0px 1px 1px 2px gray;
+}
+.btn2{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	float:left;
+	margin-top:20px;
+	margin-left:55px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+	border-width:2px;
+	border-color:black;
+	border-radius:15%;
+	font-family:timesnewroman;																																																										
+	box-shadow:0px 1px 1px 2px gray;
+}
+#block2
+{
+	color:black;
+	margin-top:-165px;
+	margin-left:450px;
+	height:160px;
+	width:800px;
+	background-color:lightgreen;
+    border:3px yellow solid;
+	box-shadow:5px 5px 5px 5px black;	
+}
+#h5{
+	color:blue;
+	font-size:44px;
+	float:left;
+	margin-left:100px;
+	margin-top:-65px;
+	font-family:Tempus Sans ITC;
+	padding-top:3px;
+	
+}
+#h7{
+	color:black;
+	font-size:22px;
+	float:left;
+	margin-left:90px;
+	margin-top:8px;
+	font-family:timesnewroman;
+}
+#h8{
+	color:black;
+	font-size:22px;
+	float:left;
+	margin-left:90px;
+	font-family:timesnewroman;
+}
+/* map location*/
+#map{
+	margin-left:15px;
+	margin-top:15px;
+	height:500px;
+	width:1200px;
+}
+.slideback{
+	background:#e5e4e2;
+	margin-top:0px;
+	width:100%;
+	height:530px;
+}
+.slidepos{
+	float:left;
+		margin-top:30px;
+		margin-left:50px;
+}
+
+#outerbox{
+	border:1px black solid;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	border-radius:70px;
+	background-color:lightgray;
+}
+#sliderbox{
+position:relative;
+width:2000px;
+height:200px;
+float:left;
+animation-name:slide;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+#sliderbox img{
+	float:left;
+	height:200px;
+	width:350px;
+}
+@keyframes slide{
+0%{
+	left:0px;
+  }
+20%
+{
+left:0px;	
+}
+25%{
+	left:-350px;
+}
+45%{
+	left:-350px;
+}
+50%{
+	left:-700px;
+}
+70%{
+	left:-700px;
+}
+75%{
+	left:-1050px;
+}
+95%{
+	left:-1050px;
+}
+100%{
+	left:-1400px;
+}
+	}
+	
+.slidepos2{
+	float:left;
+		margin-top:30px;
+		margin-left:50px;
+}
+#outerbox2{
+	border:1px black solid;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	border-radius:70px;
+	background-color:lightgray;
+}
+#sliderbox2{
+position:relative;
+width:2000px;
+height:250px;
+float:left;
+animation-name:slide2;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+#sliderbox2 img{
+	float:left;
+	height:200px;
+	width:350px;
+}
+@keyframes slide2{
+0%{
+	left:0px;
+  }
+20%
+{
+left:0px;	
+}
+25%{
+	left:-350px;
+}
+45%{
+	left:-350px;
+}
+50%{
+	left:-700px;
+}
+70%{
+	left:-700px;
+}
+75%{
+	left:-1050px;
+}
+95%{
+	left:-1050px;
+}
+100%{
+	left:-1400px;
+}
+	}	
+	
+.slidepos3{
+	float:left;
+		margin-top:250px;
+		margin-left:-750px;
+}
+#outerbox3{
+	border:1px black solid;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	border-radius:70px;
+	background-color:lightgray;
+}
+#sliderbox3{
+position:relative;
+width:2000px;
+height:200px;
+float:left;
+animation-name:slide3;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+#sliderbox3 img{
+	float:left;
+	height:200px;
+	width:350px;
+}
+@keyframes slide3{
+0%{
+	left:0px;
+  }
+20%
+{
+left:0px;	
+}
+25%{
+	left:-350px;
+}
+45%{
+	left:-350px;
+}
+50%{
+	left:-700px;
+}
+70%{
+	left:-700px;
+}
+75%{
+	left:-1050px;
+}
+95%{
+	left:-1050px;
+}
+100%{
+	left:-1400px;
+}
+	}
+
+.slidepos4{
+	float:left;
+		margin-top:250px;
+		margin-left:-350px;
+}
+#outerbox4{
+	border:1px black solid;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	border-radius:70px;
+	background-color:lightgray;
+}
+#sliderbox4{
+position:relative;
+width:2000px;
+height:200px;
+float:left;
+animation-name:slide4;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+#sliderbox4 img{
+	float:left;
+	height:200px;
+	width:350px;
+}
+@keyframes slide4{
+0%{
+	left:0px;
+  }
+20%
+{
+left:0px;	
+}
+25%{
+	left:-350px;
+}
+45%{
+	left:-350px;
+}
+50%{
+	left:-700px;
+}
+70%{
+	left:-700px;
+}
+75%{
+	left:-1050px;
+}
+95%{
+	left:-1050px;
+}
+100%{
+	left:-1400px;
+}
+	}	
+	
+.weatherpos{
+	margin-top:0px;
+	margin-left:940px;
+	padding-top:80px;
+}
+.txtweather{
+	font-family:Tempus Sans ITC;
+	font-weight:10px;
+	font-size:25px;
+	float:center;
+	margin-top:0px;
+	margin-left:5px;
+	margin-bottom:0px;
+	color:white;
+}
+#blockweather{
+	float:left;
+	margin-top:0px;
+	margin-left:142px;
+	background:#6495ed;
+	width:348px;
+	padding: 5px 5px 5px 23px;
+	height:45px;
+    border-radius:10px;
+	box-shadow:0px 1px 1px 2px #e2a76f;
+}
+
+.customHr {
+    width: 100%;
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+    background-color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}	
+
+
+/*zoom effect for home page icon */
+.zoom {
+    padding: 0px;
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.2);
+	
+}
+
+
+
+
+
+
+
+
+

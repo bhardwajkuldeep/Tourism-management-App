@@ -1,0 +1,86 @@
+/* CSS Document */
+
+body{
+	background:#999;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;	
+	margin:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+#container{
+	background-color:#FFF;
+	font-size:20px;
+    width:100%;
+	margin:auto;
+	overflow:hidden;
+	max-width: 100%;
+}
+.page_content{
+	margin:15px;
+	padding:5px;
+	border-bottom:1px solid #CCC;
+}
+.comment_input{
+	background:#CCC;
+	margin:10px;
+	padding:10px;
+	border:1px solid #CCC;
+}
+
+.button{
+	padding:5px 15px 5px 15px;
+    background:lightgreen;
+    color: green;
+	border-radius: 3px;
+}
+
+.button:hover{
+	background:#4D9494;
+}
+
+a{
+	text-decoration:none;
+}
+
+.comment_logs{
+	margin:5px;
+	padding:5px;
+	border:1px solid #CCC;
+}
+
+.comments_content{
+	margin:10px;
+	padding:5px;
+	border:1px solid #CCC;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+h1{
+	font-size:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#4040E6;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+h2{
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CECED6;
+}
+h3{
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#75A3A3;
+	padding-bottom:5px;
+	margin-bottom:5px
+}
+h4{
+	font-size:25px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CECED6;
+	text-decoration:none;
+	float:right;
+}

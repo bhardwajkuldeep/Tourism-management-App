@@ -1,0 +1,37 @@
+header{
+	
+	background:url('images/headerimg1.jpg');
+	width:1350px;
+	color:red; 
+	padding: 10px 0px 45px 100px;
+	height:34%;
+    margin: 0px auto;
+	}
+
+header h1{
+	display:inline; 
+	font-family:Matura mt script capitals;
+	font-weight:800;
+	font-size:65px;
+	float:left;
+	margin-top:3%;
+	margin-bottom:0px;
+	margin-left:11%;
+	color:red;
+	overflow:hidden;
+}
+header h2{
+	display:inline;
+	font-family:Matura mt script capitals;
+	font-size:30px;
+	float:left;
+	margin-top:8%;
+	margin-left:-26%;
+	color:black;
+	overflow:hidden;
+}
+
+
+
+
+	

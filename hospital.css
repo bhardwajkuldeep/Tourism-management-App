@@ -1,0 +1,372 @@
+
+.bghospital{
+	width:100%;
+	height:300%;
+    background-color:#e5e4e2;
+    background-size:cover;
+	padding-top:1px;
+}
+/*box for hospitals */
+#boxhospital1{
+	background:#ffffc2;
+	color:black;
+	margin-top:50px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+#txthospital{
+	margin-left:250px;
+	margin-top:7px;
+	font-family:timesnewroman;
+	font-weight:800;
+	font-size:24px;
+	color:red;
+}
+#imghospital1{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/igmc.jpg');
+}
+#description1{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+/*igmc hospital*/
+
+
+/*second hospital*/
+
+#boxhospital2{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital2{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/tenzin.jpg');
+}
+#description2{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-125px;
+}	
+
+	
+	
+/*third hospital*/
+
+#boxhospital3{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital3{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/shriram.jpg');
+}
+#description3{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+
+/*forth hospital*/
+
+#boxhospital4{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital4{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/astha.jpg');
+}
+#description4{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}	
+
+/*fifth hospital*/
+
+#boxhospital5{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital5{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/sanitorium.jpg');
+}
+#description5{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-125px;
+}
+
+
+/*sixth hospital*/
+
+#boxhospital6{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital6{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/indus.jpg');
+}
+#description6{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*seventh hospital*/
+
+#boxhospital7{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital7{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/deen.jpg');
+}
+#description7{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*eighth hospital*/
+
+#boxhospital8{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital8{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/military.jpg');
+}
+#description8{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+
+/*ninth hospital*/
+
+#boxhospital9{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital9{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/shri.jpg');
+}
+#description9{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*tenth hospital*/
+
+#boxhospital10{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital10{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/mental.jpg');
+}
+#description10{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}	
+
+/*eleventh hospital*/
+
+#boxhospital11{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital11{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/ayurveda.jpg');
+}
+#description11{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}
+
+/*twelveth hospital*/
+
+#boxhospital12{
+	background:#ffffc2;
+	color:black;
+	margin-top:-230px;
+	margin-left:720px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital12{
+	margin-top:-35px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/cancer.jpg');
+}
+#description12{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-125px;
+}
+
+
+/*thirteenth hospital*/
+
+#boxhospital13{
+	background:#ffffc2;
+	color:black;
+	margin-top:30px;
+	margin-left:100px;
+	height:230px;
+	width:530px;
+    border:1px white solid;
+	box-shadow:0px 1px 1px 2px gray;
+}
+		
+#imghospital13{
+	margin-top:-70px;
+	margin-left:7px;
+	width:230px;
+	height:210px;
+	background:url('hospitalicon/gulati.jpg');
+}
+#description13{
+	font-family:arial;
+	font-size:17px;
+	margin-left:250px;
+	margin-top:-100px;
+}

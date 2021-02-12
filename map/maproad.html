@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>Mastanamusafir | get road map</title>
+<link rel="stylesheet" href="D:\study\.A.project\Shimla hills\icon\kuldeep/code.css">
+<link rel="stylesheet" href="D:\study\.A.project\Shimla hills\icon\kuldeep/hotelitem.css">
+<link rel="stylesheet" href="D:\study\.A.project\Shimla hills\icon\kuldeep/header.css">
+<link rel="stylesheet" href="D:\study\.A.project\Shimla hills\icon\kuldeep/search-box.css">
+<link rel="stylesheet" href="D:\study\.A.project\Shimla hills\icon\kuldeep/footer.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+function GetRoute() {
+    var markers = new Array();
+    var myLatLng;
+ 
+    //Find the current location of the user.
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (p) {
+            var myLatLng = new google.maps.LatLng(p.coords.latitude, p.coords.longitude);
+            var m = {};
+            m.title = "Your current location";
+            m.lat = p.coords.latitude;
+            m.lng = p.coords.longitude;
+            markers.push(m);
+ 
+            //Find specified address location.
+            var address = document.getElementById("txtAddress").value;
+            var geocoder = new google.maps.Geocoder();
+            geocoder.geocode({ 'address': address }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    m = {};
+                    m.title = address;
+                    m.lat = results[0].geometry.location.lat();
+                    m.lng = results[0].geometry.location.lng();
+                    markers.push(m);
+                    var mapOptions = {
+                        center: myLatLng,
+                        zoom: 15,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
+                    var infoWindow = new google.maps.InfoWindow();
+                    var lat_lng = new Array();
+                    var latlngbounds = new google.maps.LatLngBounds();
+ 
+                    for (i = 0; i < markers.length; i++) {
+                        var data = markers[i];
+                        var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+                        lat_lng.push(myLatlng);
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+							title: data.title,
+							icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+                            
+                        });
+                        latlngbounds.extend(marker.position);
+                        (function (marker, data) {
+                            google.maps.event.addListener(marker, "click", function (e) {
+                                infoWindow.setContent(data.title);
+                                infoWindow.open(map, marker);
+                            });
+                        })(marker, data);
+                    }
+                    map.setCenter(latlngbounds.getCenter());
+                    map.fitBounds(latlngbounds);
+ 
+                    //***********ROUTING****************//
+ 
+                    //Initialize the Path Array.
+                    var path = new google.maps.MVCArray();
+ 
+                    //Initialize the Direction Service.
+                    var service = new google.maps.DirectionsService();
+ 
+                    //Set the Path Stroke Color.
+                    var poly = new google.maps.Polyline({ map: map, strokeColor: '#4986E7' });
+ 
+                    //Loop and Draw Path Route between the Points on MAP.
+                    for (var i = 0; i < lat_lng.length; i++) {
+                        if ((i + 1) < lat_lng.length) {
+                            var src = lat_lng[i];
+                            var des = lat_lng[i + 1];
+                            path.push(src);
+                            poly.setPath(path);
+                            service.route({
+                                origin: src,
+                                destination: des,
+                                travelMode: google.maps.DirectionsTravelMode.DRIVING
+                            }, function (result, status) {
+                                if (status == google.maps.DirectionsStatus.OK) {
+                                    for (var i = 0, len = result.routes[0].overview_path.length; i < len; i++) {
+                                        path.push(result.routes[0].overview_path[i]);
+                                    }
+                                } else {
+                                    //If the location specified is invalid, show error.
+                                    alert("Invalid location for plotting route.");
+                                    window.location.href = window.location.href;
+                                }
+                            });
+                        }
+                    }
+                } else {
+                    alert("Request failed.")
+                }
+            });
+ 
+        });
+    }
+    else {
+        alert('Geo Location feature is not supported in this browser.');
+        return;
+    }
+}
+</script>
+</head> 
+<body>
+<div id="containers">
+<header>
+<div id="headerimg">
+
+<h1>Mastanamusafir.com</h1>
+<h2>Shimla Queen Of Hills</h2>
+<div class="search-box-wrapper">
+<a href="https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=1QC1WtHyCMWmX46erOAJ">
+<button class="search-box-button">&#128269 </button></a>
+</div>
+</div>
+</header>
+<div id='cssmenu'>
+<ul>
+  <li class='active'><a href="index.html"><b>HOME</b> </a></li>
+ 
+  <li><a href="http://wallpaperswide.com/travel-desktop-wallpapers"><b>IMAGES</b></a></li>
+ 
+  <li><a href="http://www.india.com/travel/shimla/"><b>BLOG</b></a></li>
+ 
+ <li> <a href="contact.html"><b>CONTACT US</b></a></li>
+ 
+  <li><a href="about.html"><b>ABOUT US</b></a></li>
+ 
+ <li> <a href="feedback.php"><b>FEEDBACK</b></a></li>
+ 
+
+  </ul>
+</div>
+<input type="text" id="txtAddress" placeholder="Enter your destination..." style = "width:300px; margin-top:20px; margin-left:50px" />
+
+<input type="button" value="Get Route" onclick="GetRoute()" style="margin-left:-5px"/>
+<hr />
+<div id="dvMap" style="width: 1250px; height: 700px; margin-left:50px">
+</div>
+<div class="footer">
+<div id="txtsocially">
+ <p style="text-align: left; padding-left: 450px; padding-top:0px; font-size:25px;">Connect socially with Mastanamusafir.com</p></div>
+  <a href="https://www.facebook.com/chiragthakur212/"><img src="D:\study\.A.project\Shimla hills\icon\kuldeep/footericon/facebook.png" style="width: 70px; height: 70px; margin-left:70px; margin-top:30px;"></a>
+  <div id="txtfacebook"><b>LIKE ON FACEBOOK</b></DIV>
+  <a href="https://plus.google.com/"><img src="D:\study\.A.project\Shimla hills\icon\kuldeep/footericon/googleplus.png" style="width: 70px; height: 70px; margin-left:240px; margin-top:-95px"></a>
+  <div id="txtgoogleplus"><b>FOLLOW ON GOOGLEPLUS</b></div>
+  <a href="https://www.instagram.com/accounts/login/"><img src="D:\study\.A.project\Shimla hills\icon\kuldeep/footericon/instagram.png" style="width: 70px; height: 70px; margin-left:410px; margin-top:-95px"></a>
+  <div id="txtinstagram"><b>FOLLOW ON INSTAGRAM</b></div>
+  <a href="https://mobile.twitter.com/login?lang=en"><img src="D:\study\.A.project\Shimla hills\icon\kuldeep/footericon/twitter.png" style="width: 70px; height: 70px; margin-left:560px; margin-top:-95px"></a>
+   <div id="txttwitter"><b>FOLLOW ON TWITTER</b></div>
+  <a href="https://www.youtube.com/"><img src="D:\study\.A.project\Shimla hills\icon\kuldeep/footericon/youtube.png" style="width: 70px; height: 70px; margin-left:710px; margin-top:-95px"></a>
+   <div id="txtyoutube"><b>WATCH ON YOUTUBE</b></div>
+
+      <div id="footercontxt" ><a href="D:\study\.A.project\Shimla hills\icon\kuldeep/term.html" style="text-decoration:none"><c><b>Terms & Conditions </b></c> </div>
+	 
+</div>
+<div class="copyright">
+<div id="copytxt"><b>Copyright &copy 2018 Mastanamusafir.com All right reserved.</b></div>
+</div>
+
+
+</body>
+</html>
